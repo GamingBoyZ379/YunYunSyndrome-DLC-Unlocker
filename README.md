@@ -1,6 +1,6 @@
-# Yunyun Syndrome Song Unlocker
+# Yunyun Syndrome DLC Unlocker
 
-Patches DLL to instantly unlock all songs.
+Patches DLL to instantly unlock all songs and other DLC.
 Place patcher in game folder and run.
 
 > When the game updates, you may need to re-run the unlocker as the update could overwrite the patched DLL.
