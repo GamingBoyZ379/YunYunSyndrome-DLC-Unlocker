@@ -71,7 +71,7 @@ class Program
 
                                     Console.WriteLine("Patching keyboards...");
 
-                                    int[] keyboards = { 1, 2, 3, 4, 5, 6, 101, 102, 103, 104, 105 };
+                                    int[] keyboards = { 1, 2, 3, 4, 5, 6, 7, 101, 102, 103, 104, 105 };
 
                                     var body = new CilBody();
                                     var instructions = body.Instructions;
@@ -149,7 +149,7 @@ class Program
         Pause();
     }
 
-    static FieldDef FindField(TypeDef type, string name)
+    static FieldDef? FindField(TypeDef type, string name)
     {
         foreach (var f in type.Fields)
             if (f.Name == name) return f;
